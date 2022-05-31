@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>handlebars-v4</title>
+  
+  <script src="./jquery-min.js"></script>
+  <script src="./underscore-min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+</head>
+<body>
+  <a href="#"  id="a-click" >clickme</a>
+  <p >hello world</p>
+  
+  
+  <section id="Data">
+  </section>
+  <script id="handlebars-demo" type="text/x-handlebars-template">
+  {{#each cust}}
+  <div>{{id}}</div>
+  {{/each}}
+  </script>
+  <script src="./index.js"></script>
+</body>
+</html>
